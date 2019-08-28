@@ -6,4 +6,6 @@ RUN apk --no-cache add tzdata && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
     apk del tzdata
 
-COPY default.conf /etc/nginx/conf.d/default.conf
+COPY ./conf/ /etc/nginx/conf.d/
+
+EXPOSE 80 443
