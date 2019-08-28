@@ -1,0 +1,10 @@
+= astarisk.eniehack.net
+
+== Pleroma
+
+* https://qiita.com/jqtype/items/c6359924dfbe3f6e6e53
+* https://github.com/angristan/docker-pleroma
+
+== Nginx
+
+* https://git.pleroma.social/pleroma/pleroma/blob/develop/installation/pleroma.nginx
