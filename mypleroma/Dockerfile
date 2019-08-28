@@ -33,4 +33,6 @@ VOLUME /pleroma/uploads/
 VOLUME /pleroma/config/
 VOLUME /pleroma/priv/
 
+EXPOSE 4000
+
 CMD ["mix", "phx.server"]
