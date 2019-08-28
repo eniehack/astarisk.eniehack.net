@@ -5,7 +5,7 @@ services:
     restart: always
     networks:
       - back
-    expand:
+    expose:
       - "5432"
     environment:
       POSTGRES_USER: pleroma
@@ -24,7 +24,7 @@ services:
       - front
     depends_on:
       - postgres
-    expand:
+    expose:
       - "4000"
     volumes:
       - ./uploads:/pleroma/uploads
