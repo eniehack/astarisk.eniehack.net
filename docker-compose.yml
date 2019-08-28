@@ -15,7 +15,7 @@ services:
       - ./postgres:/var/lib/postgresql/data
   
   pleroma:
-    build: ./pleroma
+    build: ./mypleroma
     image: pleroma
     restart: always
     command: mix phx.server
