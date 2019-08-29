@@ -1,0 +1,3 @@
+[submodule "pleroma"]
+	path = pleroma
+	url = git@github.com:eniehack/pleroma-docker.git
