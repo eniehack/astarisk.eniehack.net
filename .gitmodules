@@ -1,3 +1,0 @@
-[submodule "pleroma"]
-	path = pleroma
-	url = git@github.com:angristan/docker-pleroma.git
